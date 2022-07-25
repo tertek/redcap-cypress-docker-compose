@@ -1,0 +1,16 @@
+{
+  "baseUrl": "http://localhost:8080",
+  "trashAssetsBeforeRuns": true,
+  "video": false,
+  "projectId": "PID",
+  "defaultCommandTimeout" : 10000,
+  "responseTimeout": 10000,
+  "requestTimeout": 10000,
+  "videoUploadOnPasses": true,
+  "videoCompression": false,
+  "integrationFolder": "cypress/integration",
+  "retries": {
+    "runMode": 0,
+    "openMode": 0
+  }
+}

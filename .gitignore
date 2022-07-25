@@ -106,3 +106,6 @@ dist
 www/
 
 data/
+
+# Cypress Videos
+e2e/cypress/videos

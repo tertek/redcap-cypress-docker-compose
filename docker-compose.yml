@@ -70,7 +70,7 @@ services:
     depends_on:
       - webserver
     environment:
-      - CYPRESS_baseUrl=http://webserver:443
+      - CYPRESS_baseUrl=http://webserver:80
     working_dir: /e2e
     volumes:
-      - ${DOCUMENT_ROOT-./e2e}:/e2e:rw      
+      - ./e2e:/e2e
