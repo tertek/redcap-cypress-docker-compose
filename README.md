@@ -1,5 +1,23 @@
 # redcap-cypress-docker-compose
 
++----------------------------------------+
+|Docker Compose                          |
+|                                        |
+|                                        |
+|  +-------------+      +-------------+  |
+|  |REDCap       |      |Cypress      |  |
+|  |             |      |             |  |
+|  |             |      |             |  |
+|  +-------------+      +-------------+  |
+|                                        |
++----------------------------------------+
+|  Apache                                |
+|  PHP                                   |
+|  MariaDB                               |
+|                                        |
++----------------------------------------+
+
+
 1. Download redcap source files and set www/redcap as their root directory
 
 2. Edit database.php: 
